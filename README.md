@@ -1,2 +1,4 @@
 # i18n-dictionary
-all i18n strings prepared for regular translators
+All i18n strings prepared for regular translators.
+
+You can fork & PR or go online on Crowdin.
