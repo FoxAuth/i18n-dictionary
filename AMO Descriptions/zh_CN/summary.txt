@@ -1,0 +1,1 @@
+非官方 Firefox 二部验证器扩展，支持自动填充二步验证码与 Firefox Android
