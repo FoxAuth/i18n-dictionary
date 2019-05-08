@@ -40,7 +40,7 @@
     "description": "Current Container which the account assigned onto"
   },
   "label_issuer": {
-    "message": "Issuer",
+    "message": "颁布方",
     "description": "The site from which generates OTP secret key"
   },
   "label_account": {
@@ -124,7 +124,7 @@
     "description": "Acknowledgement fifth"
   },
   "about_acknowledgement_helper_last": {
-    "message": "其它帮助项目构建的第三方与智力",
+    "message": "其他帮助项目构建的第三方与智力",
     "description": "Acknowledgement last"
   },
   "about_other_info": {
@@ -164,7 +164,7 @@
     "description": "warning text before account deletion"
   },
   "tokens_search_account_infos": {
-    "message": "🔎 搜索 Issuers，容器标签页名称或账户名",
+    "message": "🔎 搜索颁布方，容器标签页名称或账户名",
     "description": "Search box placeholder in option page"
   },
   "import_own_database": {
@@ -184,7 +184,7 @@
     "description": "Error message from decryption failure ftaer importing own database"
   },
   "import_error_imported_password": {
-    "message": "未找到密码。请在备份与同步页面当中输出。",
+    "message": "未找到密码。请在备份与同步页面当中输入。",
     "description": "Imported data's 'password' not found"
   },
   "import_error_different_encryptIV": {
@@ -216,7 +216,7 @@
     "description": "Form description for Recovery in manually importing UI"
   },
   "popup_search_account_infos": {
-    "message": "🔎 搜索 Issuer 或是容器标签页名称",
+    "message": "🔎 搜索颁布方或是容器标签页名称",
     "description": "Search box placeholder in popup"
   },
   "popup_title_open_options": {
@@ -358,5 +358,17 @@
   "context_autofill": {
     "message": "自动填充 OTP 验证码",
     "description": "Context Menu item for QR scanning"
+  },
+  "about_acknowledgement_helper_translators": {
+    "message": "翻译人员",
+    "description": "Acknowledgement for translators"
+  },
+  "about_acknowledgement_translators_Chinese": {
+    "message": "中文：",
+    "description": "Chinese translators"
+  },
+  "about_acknowledgement_translators_Japanese": {
+    "message": "日文：",
+    "description": "Chinese translators"
   }
 }
