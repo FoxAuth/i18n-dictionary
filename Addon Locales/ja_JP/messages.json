@@ -100,11 +100,11 @@
     "description": "Acknowledgement"
   },
   "about_acknowledgement_thanks_to_helpers": {
-    "message": "ありがとう！ 💖 このプロジェクトを支援したの皆さん",
+    "message": "ありがとう！ 💖 このプロジェクトを支援した皆さん",
     "description": "Thanks to helpers"
   },
   "about_acknowledgement_helper_first": {
-    "message": "Mozilla の <a href=\"https://design.firefox.com/photon\">Photon Design ドキュメント<img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> と <a href=\"http://design.firefox.com/icons/\">アイコン資源  <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a>",
+    "message": "Mozilla の <a href=\"https://design.firefox.com/photon\">Photon Design ドキュメント<img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> 又は <a href=\"http://design.firefox.com/icons/\">アイコン資源  <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a>",
     "description": "Acknowledgement first"
   },
   "about_acknowledgement_helper_second": {
@@ -124,7 +124,7 @@
     "description": "Acknowledgement fifth"
   },
   "about_acknowledgement_helper_last": {
-    "message": "その他のヘルパーたちと素晴らしいアイデア",
+    "message": "他のヘルパーたちと素晴らしいアイデア",
     "description": "Acknowledgement last"
   },
   "about_other_info": {
