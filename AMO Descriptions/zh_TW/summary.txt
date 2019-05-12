@@ -1,0 +1,1 @@
+非官方的 Firefox 兩步驟驗證器，可自動填入兩步驟驗證碼，且支援 Firefox Android 版

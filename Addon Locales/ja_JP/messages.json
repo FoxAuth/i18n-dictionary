@@ -104,7 +104,7 @@
     "description": "Thanks to helpers"
   },
   "about_acknowledgement_helper_first": {
-    "message": "Mozilla の <a href=\"https://design.firefox.com/photon\">Photon Design ドキュメント<img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> 又は <a href=\"http://design.firefox.com/icons/\">アイコン資源  <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a>",
+    "message": "Mozilla の <a href=\"https://design.firefox.com/photon\">Photon Design ドキュメント < img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> 又は <a href=\"http://design.firefox.com/icons/\"> アイコン資源  <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a>",
     "description": "Acknowledgement first"
   },
   "about_acknowledgement_helper_second": {
@@ -116,12 +116,16 @@
     "description": "Acknowledgement third"
   },
   "about_acknowledgement_helper_fourth": {
-    "message": "<a href=\"https://github.com/mozilla/send/\">Firefox Send <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> でコードの暗号化に使用する &amp; <a href=\"https://github.com/beatgammit/base64-js/\">js-base64 <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> でBase64の復号化に使用する。",
+    "message": "<a href=\"https://github.com/mozilla/send/\">Firefox Send <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> でコードの暗号化に使用する &amp; <a href=\"https://github.com/beatgammit/base64-js/\">js-base64 <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> で Base64 の復号化に使用する。",
     "description": "Acknowledgement fourth"
   },
   "about_acknowledgement_helper_fifth": {
     "message": "<a href=\"https://github.com/violentmonkey/violentmonkey\">Violentmonkey <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> Dropbox API 操作アルゴリズム",
     "description": "Acknowledgement fifth"
+  },
+  "about_acknowledgement_logo": {
+    "message": "<a href=\"https://github.com/EYHN\">EYHN <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> ロゴデザイン",
+    "description": "Acknowledgement logo"
   },
   "about_acknowledgement_helper_last": {
     "message": "他のヘルパーたちと素晴らしいアイデア",
@@ -363,12 +367,16 @@
     "message": "翻訳者",
     "description": "Acknowledgement for translators"
   },
-  "about_acknowledgement_translators_Chinese": {
-    "message": "中国語：",
-    "description": "Chinese translators"
+  "about_acknowledgement_translators_zhCN": {
+    "message": "簡体字：",
+    "description": "zh_CN translators"
   },
-  "about_acknowledgement_translators_Japanese": {
+  "about_acknowledgement_translators_zhTW": {
+    "message": "繁体字：",
+    "description": "zh_TW translators"
+  },
+  "about_acknowledgement_translators_jaJP": {
     "message": "日本語：",
-    "description": "Chinese translators"
+    "description": "ja_JP translators"
   }
 }
