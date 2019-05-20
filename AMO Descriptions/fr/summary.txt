@@ -1,0 +1,1 @@
+Un authentificateur NON officiel de Firefox, capable de saisir automatiquement les codes TOTP avec le support Firefox Android

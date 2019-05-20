@@ -1,0 +1,32 @@
+Introduction 
+FoxAuth est un <a href="https://wikipedia.org/wiki/Time-based_One-time_Password_algorithm">TOTP</a> client de navigateur<strong> NON OFFICIEL</strong> qui est capable de saisir automatiquement les codes TOTP avec le support de <strong>FireFox</strong> et <strong>FireFox Android</strong>
+
+Caractéristiques
+<ul>
+<li>Support de <strong>Firefox Android</strong></li>
+<li><strong>QR code</strong> / ajouter manuellement les informations de compte</li>
+<li><a herf="https://support.mozilla.org/en-US/kb/containers">Un support de <strong>Onglet Conteneur</strong></a> pour saisir automatiquement plusieurs comptes du même domaine</li>
+<ul>
+<li><strong>importer / exporter</strong>
+<ul>
+<li>importation depuis d'autres authentifiants (en cours)</li>
+</ul></li>
+</ul>
+<li>Liste de comptes (basée sur un mot de passe) <strong>encryptée</strong></li>
+<li>Saisir automatiquement le formulaire de <strong>TOTP</strong></li>
+<li><strong>Dropbox /</strong> (dans les prochaines versions) <strong>FxA</strong> sync</li>
+<li><a href="https://design.firefox.com/photon">Photon Design</a></li>
+</ul>
+
+Avertissements
+Pendant la sync, vous êtes <strong> PAS </strong> censé avoir l'un des comportements énumérés ou vous êtes totalement responsable de la perte de vos données:
+<ol type="1">
+<li>Déplacement, renommage, suppression ou édition manuelle de tout fichier de votre dossier d'application (le copier-coller ne doit toutefois pas causer de problèmes).</li>
+<li>exploiter les informations de compte entre plusieurs appareils dans une fréquence <strong>VRAIEMENT</strong> haute.</li>
+<li>utiliser des mots de passe de cryptage différents selon les appareils.</li>
+</ol>
+
+Vous devriez également noter que si vous connectez un Firefox avec une base de données FoxAuth encrtypée, toutes les bases de données non encryptées de Firefox FoxAuth seront remplacées.
+
+Sécurité
+Nous utilisons le code de cryptage de <a href="github.com/mozilla/send"> Firefox Send </a> dans l'API WebCrypto. Bienvenue pour tout examen de sécurité, il sera plus efficace.
