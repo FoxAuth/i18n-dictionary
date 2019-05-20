@@ -123,6 +123,10 @@
     "message": "<a href=\"https://github.com/violentmonkey/violentmonkey\">Violentmonkey <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> for Dropbox sync API manipulation.",
     "description": "Acknowledgement fifth"
   },
+  "about_acknowledgement_logo": {
+    "message": "<a href=\"https://github.com/EYHN\">EYHN <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> for logo design",
+    "description": "Acknowledgement logo"
+  },
   "about_acknowledgement_helper_last": {
     "message": "Other project helpers &amp; brilliant minds.",
     "description": "Acknowledgement last"
@@ -140,7 +144,7 @@
     "description": "License"
   },
   "general_welcome": {
-    "message": "Welcome to FoxAuth Authenticator.",
+    "message": "Welcome to Auth Plus.",
     "description": "Welcome message in option page"
   },
   "general_checkout_wiki": {
@@ -216,7 +220,7 @@
     "description": "Form description for Recovery in manually importing UI"
   },
   "popup_search_account_infos": {
-    "message": "🔎 Search issuers or Containers name",
+    "message": "🔎 Search Issuers or Containers name",
     "description": "Search box placeholder in popup"
   },
   "popup_title_open_options": {
@@ -358,5 +362,29 @@
   "context_autofill": {
     "message": "Autofill OTP code",
     "description": "Context Menu item for QR scanning"
+  },
+  "otpinfo_page_title": {
+    "message": "New Credential",
+    "description": "Page title for new credential adding"
+  },
+  "import_page_title": {
+    "message": "Import Database",
+    "description": "Page title for data importing"
+  },
+  "about_acknowledgement_helper_translators": {
+    "message": "Translators",
+    "description": "Acknowledgement for translators"
+  },
+  "about_acknowledgement_translators_zhCN": {
+    "message": "Simplified Chinese: ",
+    "description": "zh_CN translators"
+  },
+  "about_acknowledgement_translators_jaJP": {
+    "message": "Japanese: ",
+    "description": "ja_JP translators"
+  },
+  "about_acknowledgement_translators_zhTW": {
+    "message": "Traditional Chinese: ",
+    "description": "zh_TW translators"
   }
 }

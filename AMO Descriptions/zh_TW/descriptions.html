@@ -1,0 +1,32 @@
+Introduction 
+FoxAuth is an<strong> UNOFFICAL</strong>  <a href="https://wikipedia.org/wiki/Time-based_One-time_Password_algorithm">TOTP</a> browser client with autofill support for <strong>FireFox</strong> and <strong>FireFox Android</strong>
+
+Features
+<ul>
+<li>支援 <strong>Firefox Android</strong></li>
+<li><strong>QR code</strong> / manually add account info</li>
+<li><a herf="https://support.mozilla.org/en-US/kb/containers"><strong>Container tab</strong></a> support to autofill multiple same-domain accounts</li>
+<ul>
+<li><strong>import / export</strong>
+<ul>
+<li>import from other authenticators (in progress)</li>
+</ul></li>
+</ul>
+<li>帳戶列表<strong>加密</strong> (基於密碼)</li>
+<li>自動填入<strong>兩步驟驗證</strong>欄位</li>
+<li><strong>Dropbox /</strong> <strong>FxA</strong> 同步 (在未來版本)</li>
+<li><a href="https://design.firefox.com/photon">Photon 設計</a></li>
+</ul>
+
+Disclaimers
+During sync, you are <strong>NOT</strong> supposed to do any of the listed behaviors or you are totally responsible for your data loss:
+<ol type="1">
+<li>Moving, renaming, deleting or manually editting any file in our app folder (copying and pasting shall not cause issues though).</li>
+<li>operate account info between several devices in a <strong>REALLY</strong> frequent rate.</li>
+<li>use different encryption passwords among different devices.</li>
+</ol>
+
+You shall also note that if you connect a Firefox with encrypted FoxAuth database, all unecrypted Firefox FoxAuth databases will be override.
+
+Security
+We use encryption code from <a href="github.com/mozilla/send">Firefox Send</a> in WebCrypto API. Welcome as we are to any security review, it shall be more efficiently to perform it at that side.
