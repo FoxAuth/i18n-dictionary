@@ -31,9 +31,33 @@
     "message": "Exporter",
     "description": "Export all data to your disk"
   },
+  "sure": {
+    "message": "Biensûr",
+    "description": "Sure button text before action taken"
+  },
+  "cancel": {
+    "message": "Annuler",
+    "description": "Cancel button text before action taken"
+  },
   "submit_all": {
     "message": "Tout soumettre",
     "description": "Submit all input account info"
+  },
+  "placeholder_new_issuer": {
+    "message": "Nouveau émitteur",
+    "description": "Placeholder for new issuer"
+  },
+  "placeholder_new_account_name": {
+    "message": "Nouveau nom de compte",
+    "description": "Placeholder for new account name"
+  },
+  "placeholder_new_secret_token": {
+    "message": "Nouveau jeton de secret",
+    "description": "Placeholder for new secret token"
+  },
+  "placeholder_new_recovery": {
+    "message": "Nouvelle récupération",
+    "description": "Placeholder for new recovery"
   },
   "label_assign_container": {
     "message": "Conteneur Assigné",
@@ -122,6 +146,10 @@
   "about_acknowledgement_helper_fifth": {
     "message": "<a href=\"https://github.com/violentmonkey/violentmonkey\">Violentmonkey <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> pour les manipulations de Dropbox sync API .",
     "description": "Acknowledgement fifth"
+  },
+  "about_acknowledgement_logo": {
+    "message": "<a href=\"https://github.com/EYHN\">EYHN <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> pour la conception de logo",
+    "description": "Acknowledgement logo"
   },
   "about_acknowledgement_helper_last": {
     "message": "Les autres qui aident ce projet.",
@@ -239,6 +267,10 @@
     "message": "Ajouter OTP info manuellement",
     "description": "Tooltip for top buttons in popup"
   },
+  "popup_title_delete_accounts": {
+    "message": "Supprimer les comptes",
+    "description": "Tooltip for top buttons in popup"
+  },
   "popup_title_display_all_accounts": {
     "message": "Afficher touts les comptes",
     "description": "Tooltip for autohide buttons in popup"
@@ -250,6 +282,10 @@
   "popup_otp_copied": {
     "message": "Copié!",
     "description": "Message displayed after OTP code copied"
+  },
+  "popup_delete_message": {
+    "message": "Assurez-vous de supprimer le compte?",
+    "description": "Prompt user whether to delete account"
   },
   "sync_choose_service": {
     "message": "Choisissez le service que vous préférez pour synchroniser vos données",
@@ -358,5 +394,33 @@
   "context_autofill": {
     "message": "Saisir OTP code automatiquement",
     "description": "Context Menu item for QR scanning"
+  },
+  "otpinfo_page_title": {
+    "message": "Nouveau Titre",
+    "description": "Page title for new credential adding"
+  },
+  "import_page_title": {
+    "message": "Importer une base de données",
+    "description": "Page title for data importing"
+  },
+  "about_acknowledgement_helper_translators": {
+    "message": "Traducteurs",
+    "description": "Acknowledgement for translators"
+  },
+  "about_acknowledgement_translators_zhCN": {
+    "message": "Chinois Simplifié: ",
+    "description": "zh_CN translators"
+  },
+  "about_acknowledgement_translators_jaJP": {
+    "message": "Japonais: ",
+    "description": "ja_JP translators"
+  },
+  "about_acknowledgement_translators_zhTW": {
+    "message": "Chinois Traditionnel: ",
+    "description": "zh_TW translators"
+  },
+  "about_acknowledgement_translators_fr": {
+    "message": "Français: ",
+    "description": "fr translators"
   }
 }
