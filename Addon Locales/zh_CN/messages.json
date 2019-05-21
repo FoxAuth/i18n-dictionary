@@ -31,9 +31,33 @@
     "message": "导出",
     "description": "Export all data to your disk"
   },
+  "sure": {
+    "message": "确认",
+    "description": "Sure button text before action taken"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "Cancel button text before action taken"
+  },
   "submit_all": {
     "message": "全部提交",
     "description": "Submit all input account info"
+  },
+  "placeholder_new_issuer": {
+    "message": "新颁布方",
+    "description": "Placeholder for new issuer"
+  },
+  "placeholder_new_account_name": {
+    "message": "新账户名",
+    "description": "Placeholder for new account name"
+  },
+  "placeholder_new_secret_token": {
+    "message": "新预共享密钥",
+    "description": "Placeholder for new secret token"
+  },
+  "placeholder_new_recovery": {
+    "message": "新恢复码",
+    "description": "Placeholder for new recovery"
   },
   "label_assign_container": {
     "message": "对应的容器标签页",
@@ -148,7 +172,7 @@
     "description": "Welcome message in option page"
   },
   "general_checkout_wiki": {
-    "message": "阅读<a href=\"https://github.com/FoxAuth/FoxAuth/wiki\">帮助文档<img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a>可以了解更多详情。",
+    "message": "阅读<a href=\"https://github.com/FoxAuth/FoxAuth/wiki\">帮助文档 <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> 可以了解更多详情。",
     "description": "Wiki link for users guide"
   },
   "general_header_options": {
@@ -243,6 +267,10 @@
     "message": "手动添加 OTP 信息",
     "description": "Tooltip for top buttons in popup"
   },
+  "popup_title_delete_accounts": {
+    "message": "删除账户",
+    "description": "Tooltip for top buttons in popup"
+  },
   "popup_title_display_all_accounts": {
     "message": "展示所有账号",
     "description": "Tooltip for autohide buttons in popup"
@@ -254,6 +282,10 @@
   "popup_otp_copied": {
     "message": "已复制",
     "description": "Message displayed after OTP code copied"
+  },
+  "popup_delete_message": {
+    "message": "是否确认删除该账户？",
+    "description": "Prompt user whether to delete account"
   },
   "sync_choose_service": {
     "message": "选择一个服务进行数据同步",
@@ -386,5 +418,9 @@
   "about_acknowledgement_translators_jaJP": {
     "message": "日文：",
     "description": "ja_JP translators"
+  },
+  "about_acknowledgement_translators_fr": {
+    "message": "法语：",
+    "description": "fr translators"
   }
 }
