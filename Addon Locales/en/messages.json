@@ -175,6 +175,10 @@
     "message": "Check out <a href=\"https://github.com/FoxAuth/FoxAuth/wiki\">our wiki <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"> </a> to get started.",
     "description": "Wiki link for users guide"
   },
+  "general_translation": {
+    "message": "Please help us to <a href=\"https://github.com/FoxAuth/i18n-dictionary\">translate this addon <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> .",
+    "description": "i18n dictionary link"
+  },
   "general_header_options": {
     "message": "General Options",
     "description": "General options"
@@ -187,13 +191,17 @@
     "message": "Disable context menus.",
     "description": "Option: whether disable context menus"
   },
+  "general_option_enable_compression": {
+    "message": "Enable compression to data on sync (can be laggy on extremely old devices).",
+    "description": "Option: whether enable compression when syncing"
+  },
   "tokens_warning_message_content": {
     "message": "Deleting account info doesn't disable 2FA. Make sure you won't be locked out before proceed.",
     "description": "warning text before account deletion"
   },
-  "tokens_search_account_infos": {
+  "search_account_infos": {
     "message": "🔎 Search Issuers, Containers name or Account name",
-    "description": "Search box placeholder in option page"
+    "description": "Search box placeholder in option page or popup"
   },
   "import_own_database": {
     "message": "Own Database",
@@ -243,16 +251,8 @@
     "message": "Given string in case OTP account info lost.",
     "description": "Form description for Recovery in manually importing UI"
   },
-  "popup_search_account_infos": {
-    "message": "🔎 Search Issuers or Containers name",
-    "description": "Search box placeholder in popup"
-  },
   "popup_title_open_options": {
     "message": "Open options",
-    "description": "Tooltip for top buttons in popup"
-  },
-  "popup_title_open_tokens": {
-    "message": "See all tokens",
     "description": "Tooltip for top buttons in popup"
   },
   "popup_title_scan_qr": {
@@ -286,6 +286,10 @@
   "popup_delete_message": {
     "message": "Are you sure to delete it?",
     "description": "Prompt user whether to delete account"
+  },
+  "popup_data_encrypted": {
+    "message": "ENCRYPTED OR ERROR",
+    "description": "Displayed texture in popup when data is encrypted or error"
   },
   "sync_choose_service": {
     "message": "Choose service you prefer to sync your data",

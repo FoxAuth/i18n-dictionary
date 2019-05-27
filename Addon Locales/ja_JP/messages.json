@@ -32,11 +32,11 @@
     "description": "Export all data to your disk"
   },
   "sure": {
-    "message": "确认",
+    "message": "削除",
     "description": "Sure button text before action taken"
   },
   "cancel": {
-    "message": "取消",
+    "message": "キャンセル",
     "description": "Cancel button text before action taken"
   },
   "submit_all": {
@@ -175,6 +175,10 @@
     "message": "プロジェクトウィキ<a href=\"https://github.com/FoxAuth/FoxAuth/wiki\">を読む <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> からはじめます。",
     "description": "Wiki link for users guide"
   },
+  "general_translation": {
+    "message": "Please help us to <a href=\"https://github.com/FoxAuth/i18n-dictionary\">translate this addon <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> .",
+    "description": "i18n dictionary link"
+  },
   "general_header_options": {
     "message": "全般オプション",
     "description": "General options"
@@ -187,13 +191,17 @@
     "message": "コンテキスト メニューを無効にする",
     "description": "Option: whether disable context menus"
   },
+  "general_option_enable_compression": {
+    "message": "Enable compression to data on sync (can be laggy on extremely old devices).",
+    "description": "Option: whether enable compression when syncing"
+  },
   "tokens_warning_message_content": {
     "message": "アカウントの削除は設定した二段階認証を影響しない、ロックアウトの可能性を必ず確認してください。",
     "description": "warning text before account deletion"
   },
-  "tokens_search_account_infos": {
+  "search_account_infos": {
     "message": "🔎 発行者、コンテナ名とユーザー名から捜す",
-    "description": "Search box placeholder in option page"
+    "description": "Search box placeholder in option page or popup"
   },
   "import_own_database": {
     "message": "独自のデータベースから",
@@ -243,16 +251,8 @@
     "message": "OTPアカウントが紛失した時、与えられた文字列",
     "description": "Form description for Recovery in manually importing UI"
   },
-  "popup_search_account_infos": {
-    "message": "🔎 発行者やコンテナ名から捜します",
-    "description": "Search box placeholder in popup"
-  },
   "popup_title_open_options": {
     "message": "オプションを開く",
-    "description": "Tooltip for top buttons in popup"
-  },
-  "popup_title_open_tokens": {
-    "message": "すべてのトークンを表示",
     "description": "Tooltip for top buttons in popup"
   },
   "popup_title_scan_qr": {
@@ -284,8 +284,12 @@
     "description": "Message displayed after OTP code copied"
   },
   "popup_delete_message": {
-    "message": "是否确认删除该账户？",
+    "message": "このアカウントを削除しますか?",
     "description": "Prompt user whether to delete account"
+  },
+  "popup_data_encrypted": {
+    "message": "暗号化されたデータを含むまたはエラーが発生した",
+    "description": "Displayed texture in popup when data is encrypted or error"
   },
   "sync_choose_service": {
     "message": "好きなサービスを選択して、データを同期します。",

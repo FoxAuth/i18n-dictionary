@@ -148,7 +148,7 @@
     "description": "Acknowledgement fifth"
   },
   "about_acknowledgement_logo": {
-    "message": "<a href=\"https:\/\/github.com\/EYHN\">EYHN <img src=\"..\/icons\/options\/Open In New.svg\" width=\"16px\" height=\"16px\"><\/a> 圖示设计",
+    "message": "<a href=\"https:\/\/github.com\/EYHN\">EYHN <img src=\"..\/icons\/options\/Open In New.svg\" width=\"16px\" height=\"16px\"><\/a> 圖示設計",
     "description": "Acknowledgement logo"
   },
   "about_acknowledgement_helper_last": {
@@ -175,6 +175,10 @@
     "message": "閱讀 <a href=\"https:\/\/github.com\/FoxAuth\/FoxAuth\/wiki\">我們的Wiki <img src=\"..\/icons\/options\/Open In New.svg\" width=\"16px\" height=\"16px\"><\/a> 以瞭解更多詳情。",
     "description": "Wiki link for users guide"
   },
+  "general_translation": {
+    "message": "請幫助我們 <a href=\"https://github.com/FoxAuth/i18n-dictionary\">進行翻譯 <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a>",
+    "description": "i18n dictionary link"
+  },
   "general_header_options": {
     "message": "一般選項",
     "description": "General options"
@@ -187,13 +191,17 @@
     "message": "停用右鍵選單",
     "description": "Option: whether disable context menus"
   },
+  "general_option_enable_compression": {
+    "message": "壓縮同步數據（極端老舊設備可見卡頓）",
+    "description": "Option: whether enable compression when syncing"
+  },
   "tokens_warning_message_content": {
     "message": "刪除帳戶資訊不會停用兩步驟驗證。請確保您不會因此無法存取帳戶。",
     "description": "warning text before account deletion"
   },
   "tokens_search_account_infos": {
     "message": "🔎 搜尋頒布方、容器分頁名稱或帳戶名稱",
-    "description": "Search box placeholder in option page"
+    "description": "Search box placeholder in option page or popup"
   },
   "import_own_database": {
     "message": "自有資料庫",
@@ -243,16 +251,8 @@
     "message": "以防 OTP 帳戶資訊遺失的字串",
     "description": "Form description for Recovery in manually importing UI"
   },
-  "popup_search_account_infos": {
-    "message": "🔎 搜尋頒布方或容器分頁名稱",
-    "description": "Search box placeholder in popup"
-  },
   "popup_title_open_options": {
     "message": "開啟選項頁面",
-    "description": "Tooltip for top buttons in popup"
-  },
-  "popup_title_open_tokens": {
-    "message": "查看全部帳戶",
     "description": "Tooltip for top buttons in popup"
   },
   "popup_title_scan_qr": {
@@ -290,6 +290,10 @@
   "sync_choose_service": {
     "message": "選擇用於同步您資料的服務",
     "description": "Texture above sync buttons in Backup & Sync page"
+  },
+  "popup_data_encrypted": {
+    "message": "資料庫已加密或出錯",
+    "description": "Displayed texture in popup when data is encrypted or error"
   },
   "sync_encrypt_descrypt": {
     "message": "加密與解密",

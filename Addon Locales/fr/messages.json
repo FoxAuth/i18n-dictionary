@@ -175,6 +175,10 @@
     "message": "Commençez par <a href=\"https://github.com/FoxAuth/FoxAuth/wiki\">notre wiki <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"> </a>.",
     "description": "Wiki link for users guide"
   },
+  "general_translation": {
+    "message": "Please help us to <a href=\"https://github.com/FoxAuth/i18n-dictionary\">translate this addon <img src=\"../icons/options/Open In New.svg\" width=\"16px\" height=\"16px\"></a> .",
+    "description": "i18n dictionary link"
+  },
   "general_header_options": {
     "message": "Options générales",
     "description": "General options"
@@ -187,13 +191,17 @@
     "message": "Désactiver les menus contextuels.",
     "description": "Option: whether disable context menus"
   },
+  "general_option_enable_compression": {
+    "message": "Enable compression to data on sync (can be laggy on extremely old devices).",
+    "description": "Option: whether enable compression when syncing"
+  },
   "tokens_warning_message_content": {
     "message": "La suppression des informations du compte ne désactive pas le 2FA. Assurez-vous de ne pas être en verrouillage avant de continuer.",
     "description": "warning text before account deletion"
   },
-  "tokens_search_account_infos": {
+  "search_account_infos": {
     "message": "🔎 Rechercher des émetteurs, noms du conteneur ou noms du compte",
-    "description": "Search box placeholder in option page"
+    "description": "Search box placeholder in option page or popup"
   },
   "import_own_database": {
     "message": "Base de données",
@@ -224,7 +232,7 @@
     "description": "Found different password from that stored locally during importing"
   },
   "import_warning": {
-    "message": "<strong>ATTENTION:</ strong> <br> Vous devriez le décryter et ensuite indiquer l'emplacement du fichier.",
+    "message": "<strong>ATTENTION:</strong> <br> Vous devriez le décryter et ensuite indiquer l'emplacement du fichier.",
     "description": "Warning message on import UI"
   },
   "otpinfo_choose_container": {
@@ -242,10 +250,6 @@
   "otpinfo_tip_recovery": {
     "message": "Chaîne de caractère donnée en cas de perte des informations du compte OTP.",
     "description": "Form description for Recovery in manually importing UI"
-  },
-  "popup_search_account_infos": {
-    "message": "🔎 Rechercher les émetteurs ou les noms des conteneurs",
-    "description": "Search box placeholder in popup"
   },
   "popup_title_open_options": {
     "message": "Ouvrir la page de paramètre",
@@ -286,6 +290,10 @@
   "popup_delete_message": {
     "message": "Assurez-vous de supprimer le compte?",
     "description": "Prompt user whether to delete account"
+  },
+  "popup_data_encrypted": {
+    "message": "Encryptée ou erronée",
+    "description": "Displayed texture in popup when data is encrypted or error"
   },
   "sync_choose_service": {
     "message": "Choisissez le service que vous préférez pour synchroniser vos données",
