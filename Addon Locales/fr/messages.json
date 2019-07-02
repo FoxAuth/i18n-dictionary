@@ -295,6 +295,10 @@
     "message": "Encryptée ou erronée",
     "description": "Displayed texture in popup when data is encrypted or error"
   },
+  "sync_disconnect": {
+    "message": "Disconnect",
+    "description": "Texture above sync buttons after you are connected"
+  },
   "sync_choose_service": {
     "message": "Choisissez le service que vous préférez pour synchroniser vos données",
     "description": "Texture above sync buttons in Backup & Sync page"
@@ -318,6 +322,10 @@
   "sync_password_security": {
     "message": "ATTENTION: <span id=\"specialCapt\"><strong>personne</strong></span> pourrait vous aider si vous l'avez oublié.",
     "description": "Form label in encryption form in Backup & Sync page"
+  },
+  "sync_password_alert": {
+    "message": "Your password is easy to guess. Think twice before use it.",
+    "description": "Alert text for a known popular password"
   },
   "sync_confirm_runtime": {
     "message": "Confirmer / décrypter l'exécution",
@@ -354,6 +362,38 @@
   "sync_overwite_remote_warning": {
     "message": "Vos données à distante seront couvertes en raison de cryptages différents",
     "description": "Message during sync for data overwriting confirmation"
+  },
+  "sync_compress_local_warning": {
+    "message": "Your local data will be overwritten due to different compression settings",
+    "description": "Message during sync for data overwriting confirmation"
+  },
+  "sync_compress_remote_warning": {
+    "message": "Your remote data will be overwritten due to different compression settings",
+    "description": "Message during sync for data overwriting confirmation"
+  },
+  "sync_password_lv_NaN": {
+    "message": "N/A",
+    "description": "Password strength unknown"
+  },
+  "sync_password_lv1": {
+    "message": "Very weak",
+    "description": "Password strength lv1"
+  },
+  "sync_password_lv2": {
+    "message": "Weak",
+    "description": "Password strength lv2"
+  },
+  "sync_password_lv3": {
+    "message": "Moderate",
+    "description": "Password strength lv3"
+  },
+  "sync_password_lv4": {
+    "message": "Strong",
+    "description": "Password strength lv4"
+  },
+  "sync_password_lv5": {
+    "message": "Very strong",
+    "description": "Password strength lv5"
   },
   "sync_wrong_password": {
     "message": "Mot de passe incorrect",
@@ -430,5 +470,9 @@
   "about_acknowledgement_translators_fr": {
     "message": "Français: ",
     "description": "fr translators"
+  },
+  "about_acknowledgement_translators_it": {
+    "message": "Italien: ",
+    "description": "it translators"
   }
 }

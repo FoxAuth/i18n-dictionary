@@ -295,6 +295,10 @@
     "message": "选择一个服务进行数据同步",
     "description": "Texture above sync buttons in Backup & Sync page"
   },
+  "sync_disconnect": {
+    "message": "断开同步",
+    "description": "Texture above sync buttons after you are connected"
+  },
   "sync_encrypt_descrypt": {
     "message": "加密与加密",
     "description": "Texture above sync encryption form in Backup & Sync page"
@@ -314,6 +318,10 @@
   "sync_password_security": {
     "message": "警告：<span id=\"specialCapt\">丢失密码 <strong>神仙难救</strong></span>",
     "description": "Form label in encryption form in Backup & Sync page"
+  },
+  "sync_password_alert": {
+    "message": "该密码为已知的流行弱密码，使用前请三思",
+    "description": "Alert text for a known popular password"
   },
   "sync_confirm_runtime": {
     "message": "确认加密 / 运行中解密",
@@ -350,6 +358,38 @@
   "sync_overwite_remote_warning": {
     "message": "由于加密设置区别，远端数据将被覆盖",
     "description": "Message during sync for data overwriting confirmation"
+  },
+  "sync_compress_local_warning": {
+    "message": "由于压缩设置区别，本地数据将被覆盖",
+    "description": "Message during sync for data overwriting confirmation"
+  },
+  "sync_compress_remote_warning": {
+    "message": "由于压缩设置区别，远端数据将被覆盖",
+    "description": "Message during sync for data overwriting confirmation"
+  },
+  "sync_password_lv_NaN": {
+    "message": "未知",
+    "description": "Password strength unknown"
+  },
+  "sync_password_lv1": {
+    "message": "非常弱",
+    "description": "Password strength lv1"
+  },
+  "sync_password_lv2": {
+    "message": "弱",
+    "description": "Password strength lv2"
+  },
+  "sync_password_lv3": {
+    "message": "中等",
+    "description": "Password strength lv3"
+  },
+  "sync_password_lv4": {
+    "message": "强",
+    "description": "Password strength lv4"
+  },
+  "sync_password_lv5": {
+    "message": "非常强",
+    "description": "Password strength lv5"
   },
   "sync_wrong_password": {
     "message": "密码错误",
@@ -426,5 +466,9 @@
   "about_acknowledgement_translators_fr": {
     "message": "法语：",
     "description": "fr translators"
+  },
+  "about_acknowledgement_translators_it": {
+    "message": "意大利语：",
+    "description": "it translators"
   }
 }

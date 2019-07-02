@@ -295,6 +295,10 @@
     "message": "好きなサービスを選択して、データを同期します。",
     "description": "Texture above sync buttons in Backup & Sync page"
   },
+  "sync_disconnect": {
+    "message": "Disconnect",
+    "description": "Texture above sync buttons after you are connected"
+  },
   "sync_encrypt_descrypt": {
     "message": "暗号化と復号化",
     "description": "Texture above sync encryption form in Backup & Sync page"
@@ -314,6 +318,10 @@
   "sync_password_security": {
     "message": "警告：<span id=\"specialCapt\">パスワードの紛失は <strong>誰でも解決できない</strong></span>",
     "description": "Form label in encryption form in Backup & Sync page"
+  },
+  "sync_password_alert": {
+    "message": "Your password is easy to guess. Think twice before use it.",
+    "description": "Alert text for a known popular password"
   },
   "sync_confirm_runtime": {
     "message": "確認又は実行時復号化",
@@ -350,6 +358,38 @@
   "sync_overwite_remote_warning": {
     "message": "暗号化設定が異なるために、リモートデータが上書きされます",
     "description": "Message during sync for data overwriting confirmation"
+  },
+  "sync_compress_local_warning": {
+    "message": "圧縮設定が異なるために、ローカルデータが上書きされます",
+    "description": "Message during sync for data overwriting confirmation"
+  },
+  "sync_compress_remote_warning": {
+    "message": "圧縮設定が異なるために、リモートデータが上書きされます",
+    "description": "Message during sync for data overwriting confirmation"
+  },
+  "sync_password_lv_NaN": {
+    "message": "N/A",
+    "description": "Password strength unknown"
+  },
+  "sync_password_lv1": {
+    "message": "Very weak",
+    "description": "Password strength lv1"
+  },
+  "sync_password_lv2": {
+    "message": "Weak",
+    "description": "Password strength lv2"
+  },
+  "sync_password_lv3": {
+    "message": "Moderate",
+    "description": "Password strength lv3"
+  },
+  "sync_password_lv4": {
+    "message": "Strong",
+    "description": "Password strength lv4"
+  },
+  "sync_password_lv5": {
+    "message": "Very strong",
+    "description": "Password strength lv5"
   },
   "sync_wrong_password": {
     "message": "誤ったパスワード",
@@ -426,5 +466,9 @@
   "about_acknowledgement_translators_fr": {
     "message": "フランス語：",
     "description": "fr translators"
+  },
+  "about_acknowledgement_translators_it": {
+    "message": "イタリア語：",
+    "description": "it translators"
   }
 }
